@@ -6,6 +6,8 @@ version := "0.1"
 
 scalacOptions ++= Seq("-deprecation","-Xlint","-feature")
 
+crossScalaVersions += "2.11.8"
+
 libraryDependencies += "io.argonaut" %% "argonaut" % "6.1"
 
 // publishing settings
@@ -32,7 +34,7 @@ pomExtra :=
       <name>Perry Nguyen</name>
       <url>https://github.com/pfn</url>
     </developer>
-  </developers>
+  </developers>;
 
 homepage := Some(url("https://github.com/pfn/bintray-update-checker"))
 
