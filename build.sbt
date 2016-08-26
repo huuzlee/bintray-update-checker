@@ -2,13 +2,13 @@ name := "bintray-update-checker"
 
 organization := "com.hanhuy.sbt"
 
-version := "0.1"
+version := "0.2"
 
 scalacOptions ++= Seq("-deprecation","-Xlint","-feature")
 
 crossScalaVersions += "2.11.8"
 
-libraryDependencies += "io.argonaut" %% "argonaut" % "6.1"
+libraryDependencies += "io.argonaut" %% "argonaut" % "6.1a"
 
 // publishing settings
 publishMavenStyle := true
